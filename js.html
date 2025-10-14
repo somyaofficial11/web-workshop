@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+</head>
+<body>
+    <script>
+        function triangle()
+        {
+            a=parseInt(prompt("enter first angle="));
+            b=parseInt(prompt("enter second angle="));
+            c=parseInt(prompt("enter third angle="));
+            document.write("first angle="+a + "<br>")
+            document.write("second angle="+b + "<br>")
+            document.write("third angle="+c + "<br>")
+            total=a+b+c;   
+            document.write("total is ="+total+ "<br>")
+
+            if(total==180)
+        {
+            document.write("triangle is valid.");
+
+        }
+           else 
+        {
+            document.write("triangle is invalid.");
+            
+        }
+        }
+
+        triangle();
+    </script>
+</body>
+</html>
